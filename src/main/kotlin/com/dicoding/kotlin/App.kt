@@ -24,4 +24,10 @@ fun main() {
     */
 
     print("Tempat kerjaku $company")
-}
+
+//    Jika Type data Char, Initialization Menggunakan ' ' ;
+    val nganu: Char = 'A';
+
+    println(nganu);
+
+}g
