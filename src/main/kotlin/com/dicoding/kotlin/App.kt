@@ -1,5 +1,27 @@
 package com.dicoding.kotlin
 
+
 fun main() {
-    println("Hello World!");
+    /*
+        Struktur umum init Variable
+       var identifier: Type = Initialization
+    */
+
+    // Var dapat di Initialization kembali valunya...
+    var company: String = "PT Enigma Cipta Humanika";
+
+    println(company);
+
+    company = "Enigma Camp";
+
+    println(company);
+
+    // sedangkan Val tidak bisa di Initialization kembali
+    val name: String = "Juan Daniel";
+
+    /* Val cannot be reassigned
+       name = "anuan";
+    */
+
+    print("Tempat kerjaku $company")
 }
